@@ -1,0 +1,70 @@
+group,home_team,away_team,home_goals,away_goals,winner,corners,yellow_cards,red_cards
+A,Mexico,South Africa,2,1,home,11,3,0
+A,Mexico,South Korea,1,1,home,11,3,0
+A,Mexico,Czechia,0,0,draw,11,3,0
+A,South Africa,South Korea,1,0,home,12,3,0
+A,South Africa,Czechia,0,0,draw,11,3,0
+A,South Korea,Czechia,0,0,draw,12,3,0
+B,Canada,Bosnia and Herzegovina,3,0,home,11,3,0
+B,Canada,Qatar,3,0,home,11,3,0
+B,Canada,Switzerland,2,1,home,11,3,0
+B,Bosnia and Herzegovina,Qatar,1,0,home,11,3,0
+B,Bosnia and Herzegovina,Switzerland,0,2,away,11,3,0
+B,Qatar,Switzerland,2,2,home,11,3,0
+C,Brazil,Morocco,2,1,home,10,3,0
+C,Brazil,Haiti,3,0,home,11,3,0
+C,Brazil,Scotland,3,0,home,11,3,0
+C,Morocco,Haiti,3,0,home,11,3,0
+C,Morocco,Scotland,3,0,home,11,3,0
+C,Haiti,Scotland,2,1,home,11,3,0
+D,United States,Paraguay,2,0,home,12,3,0
+D,United States,Australia,2,1,home,11,3,0
+D,United States,Türkiye,0,0,draw,12,4,0
+D,Paraguay,Australia,1,0,home,11,3,0
+D,Paraguay,Türkiye,0,0,draw,12,3,0
+D,Australia,Türkiye,0,0,draw,11,3,0
+E,Germany,Curaçao,3,2,home,11,3,0
+E,Germany,Côte d'Ivoire,0,0,draw,11,3,0
+E,Curaçao,Côte d'Ivoire,0,0,draw,12,3,0
+F,Netherlands,Japan,1,1,home,10,3,0
+F,Netherlands,Sweden,3,1,home,11,3,0
+F,Netherlands,Tunisia,2,1,home,11,3,0
+F,Japan,Sweden,3,0,home,11,3,0
+F,Japan,Tunisia,2,1,home,11,3,0
+F,Sweden,Tunisia,1,1,home,11,3,0
+G,Belgium,Egypt,1,0,home,11,3,0
+G,Belgium,Iran,1,1,home,11,3,0
+G,Belgium,New Zealand,2,0,home,11,3,0
+G,Egypt,Iran,2,1,home,12,3,0
+G,Egypt,New Zealand,3,0,home,12,3,0
+G,Iran,New Zealand,2,0,home,12,4,0
+H,Spain,Cabo Verde,0,0,draw,11,3,0
+H,Spain,Saudi Arabia,1,0,home,11,3,0
+H,Spain,Uruguay,2,1,home,10,3,0
+H,Cabo Verde,Saudi Arabia,0,0,draw,11,3,0
+H,Cabo Verde,Uruguay,0,0,draw,11,3,0
+H,Saudi Arabia,Uruguay,0,1,away,11,3,0
+I,France,Senegal,3,0,home,10,3,0
+I,France,Iraq,3,0,home,11,3,0
+I,France,Norway,3,0,home,11,3,0
+I,Senegal,Iraq,0,0,draw,11,3,0
+I,Senegal,Norway,1,0,home,11,3,0
+I,Iraq,Norway,2,1,home,11,3,0
+J,Argentina,Algeria,2,0,home,11,3,0
+J,Argentina,Austria,2,0,home,10,3,0
+J,Argentina,Jordan,3,0,home,11,3,0
+J,Algeria,Austria,2,1,home,11,3,0
+J,Algeria,Jordan,3,0,home,11,3,0
+J,Austria,Jordan,3,1,home,11,3,0
+K,Portugal,Democratic Republic of Congo,0,0,draw,11,3,0
+K,Portugal,Uzbekistan,3,0,home,11,3,0
+K,Portugal,Colombia,2,1,home,10,3,0
+K,Democratic Republic of Congo,Uzbekistan,0,0,draw,12,4,0
+K,Democratic Republic of Congo,Colombia,0,0,draw,11,3,0
+K,Uzbekistan,Colombia,1,1,home,11,3,0
+L,England,Croatia,2,1,home,10,3,0
+L,England,Ghana,3,0,home,11,3,0
+L,England,Panama,3,0,home,11,3,0
+L,Croatia,Ghana,3,0,home,11,3,0
+L,Croatia,Panama,3,1,home,11,3,0
+L,Ghana,Panama,3,0,home,11,3,0
