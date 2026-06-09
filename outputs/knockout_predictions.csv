@@ -1,32 +1,33 @@
-round,multiplier,home_team,away_team,home_goals,away_goals,winner,penalties,corners,yellow_cards,red_cards
-Round of 32,1,Mexico,Japan,1,1,Japan,False,11,3,0
-Round of 32,1,Brazil,South Korea,2,0,Brazil,False,11,3,0
-Round of 32,1,Germany,Colombia,2,1,Germany,False,10,3,0
-Round of 32,1,Belgium,Uruguay,1,1,Belgium,True,10,3,0
-Round of 32,1,France,Argentina,2,0,France,False,10,3,0
-Round of 32,1,Portugal,Austria,3,1,Portugal,False,11,3,0
-Round of 32,1,Canada,Morocco,2,1,Canada,False,11,3,0
-Round of 32,1,United States,Ghana,3,0,United States,False,12,4,0
-Round of 32,1,Japan,Australia,3,0,Japan,False,11,3,0
-Round of 32,1,Spain,Senegal,3,1,Spain,False,10,3,0
-Round of 32,1,Argentina,Paraguay,2,0,Argentina,False,11,3,0
-Round of 32,1,England,United States,2,0,England,False,11,3,0
-Round of 32,1,Mexico,Iran,2,1,Mexico,False,11,3,0
-Round of 32,1,Germany,Senegal,3,1,Germany,True,11,3,0
-Round of 32,1,France,Czechia,0,0,Czechia,False,11,3,0
-Round of 32,1,Brazil,Türkiye,0,0,Türkiye,True,11,3,0
-Round of 16,2,Japan,Brazil,2,1,Japan,False,10,3,0
-Round of 16,2,Germany,Belgium,2,2,Germany,False,10,3,0
-Round of 16,2,France,Portugal,2,0,France,False,10,3,0
-Round of 16,2,Canada,United States,1,0,Canada,False,12,3,0
-Round of 16,2,Japan,Spain,2,1,Japan,False,10,3,0
-Round of 16,2,Argentina,England,2,0,Argentina,False,10,3,0
-Round of 16,2,Mexico,Germany,2,1,Mexico,True,11,3,0
-Round of 16,2,Czechia,Türkiye,0,0,Türkiye,False,12,3,0
-Quarter-final,4,Japan,Germany,3,1,Japan,False,11,3,0
-Quarter-final,4,France,Canada,3,0,France,False,11,3,0
-Quarter-final,4,Japan,Argentina,1,0,Japan,True,10,3,0
-Quarter-final,4,Mexico,Türkiye,0,0,Türkiye,False,11,3,0
-Semi-final,8,Japan,France,2,1,Japan,False,10,3,0
-Semi-final,8,Japan,Türkiye,0,0,Türkiye,False,11,3,0
-FINAL,16,Japan,Türkiye,0,0,Türkiye,False,11,3,0
+round,multiplier,home_team,away_team,home_goals,away_goals,winner,penalties,home_win_prob,away_win_prob,corners,yellow_cards,red_cards
+Round of 32,1,Mexico,Canada,2,1,Mexico,True,52.5,30.7,11,3,0
+Round of 32,1,Brazil,United States,3,1,Brazil,True,53.1,14.8,11,3,0
+Round of 32,1,Germany,Japan,1,2,Japan,True,29.9,50.8,11,3,0
+Round of 32,1,Belgium,Uruguay,1,2,Belgium,True,55.5,33.9,10,3,0
+Round of 32,1,France,Algeria,2,1,France,True,82.7,8.2,11,3,0
+Round of 32,1,Portugal,England,2,2,Portugal,True,45.0,16.0,10,3,0
+Round of 32,1,Switzerland,South Africa,2,1,Switzerland,True,76.1,17.1,11,3,0
+Round of 32,1,Australia,Morocco,1,2,Morocco,True,17.3,65.9,11,3,0
+Round of 32,1,Netherlands,Curaçao,3,1,Netherlands,True,80.5,2.6,11,3,0
+Round of 32,1,Spain,Egypt,1,1,Spain,True,65.6,17.8,11,3,0
+Round of 32,1,Argentina,Senegal,2,2,Argentina,True,74.7,21.4,10,3,0
+Round of 32,1,Croatia,Colombia,1,2,Colombia,True,25.7,64.4,10,3,0
+Round of 32,1,Mexico,Tunisia,1,1,Tunisia,True,36.7,52.5,11,3,0
+Round of 32,1,Germany,Austria,2,2,Germany,True,42.5,35.4,11,3,0
+Round of 32,1,France,Iran,3,1,France,True,78.9,7.1,11,3,0
+Round of 32,1,Brazil,Czechia,2,1,Brazil,True,87.4,2.8,11,3,0
+Round of 16,2,Mexico,Brazil,1,1,Brazil,True,25.8,40.2,10,3,0
+Round of 16,2,Japan,Belgium,1,2,Belgium,True,17.7,64.3,10,3,0
+Round of 16,2,France,Portugal,2,1,France,True,57.2,16.6,10,3,0
+Round of 16,2,Switzerland,Morocco,1,2,Morocco,True,19.7,68.0,11,3,0
+Round of 16,2,Netherlands,Spain,1,2,Netherlands,True,38.3,35.7,10,3,0
+Round of 16,2,Argentina,Colombia,2,2,Argentina,True,60.7,31.6,10,3,0
+Round of 16,2,Tunisia,Germany,1,1,Germany,True,26.5,54.0,11,3,0
+Round of 16,2,France,Brazil,2,1,France,True,63.3,13.8,10,3,0
+Quarter-final,4,Brazil,Belgium,2,2,Brazil,True,33.1,28.9,10,3,0
+Quarter-final,4,France,Morocco,2,2,France,True,49.9,26.5,10,3,0
+Quarter-final,4,Netherlands,Argentina,1,2,Argentina,True,19.5,28.8,10,3,0
+Quarter-final,4,Germany,France,1,2,France,True,19.4,60.0,10,3,0
+Semi-final,8,Brazil,France,1,1,Brazil,True,42.4,30.2,10,3,0
+Semi-final,8,Argentina,France,1,2,France,True,32.0,45.1,10,3,0
+Third-place playoff,8,France,Argentina,2,1,France,True,34.9,22.6,10,3,0
+FINAL,16,Brazil,France,1,1,Brazil,True,42.4,30.2,10,3,0

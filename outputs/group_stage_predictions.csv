@@ -1,70 +1,70 @@
-group,home_team,away_team,home_goals,away_goals,winner,corners,yellow_cards,red_cards
-A,Mexico,South Africa,2,1,home,11,3,0
-A,Mexico,South Korea,1,1,home,11,3,0
-A,Mexico,Czechia,0,0,draw,11,3,0
-A,South Africa,South Korea,1,0,home,12,3,0
-A,South Africa,Czechia,0,0,draw,11,3,0
-A,South Korea,Czechia,0,0,draw,12,3,0
-B,Canada,Bosnia and Herzegovina,3,0,home,11,3,0
-B,Canada,Qatar,3,0,home,11,3,0
-B,Canada,Switzerland,2,1,home,11,3,0
-B,Bosnia and Herzegovina,Qatar,1,0,home,11,3,0
-B,Bosnia and Herzegovina,Switzerland,0,2,away,11,3,0
-B,Qatar,Switzerland,2,2,home,11,3,0
-C,Brazil,Morocco,2,1,home,10,3,0
-C,Brazil,Haiti,3,0,home,11,3,0
-C,Brazil,Scotland,3,0,home,11,3,0
-C,Morocco,Haiti,3,0,home,11,3,0
-C,Morocco,Scotland,3,0,home,11,3,0
-C,Haiti,Scotland,2,1,home,11,3,0
-D,United States,Paraguay,2,0,home,12,3,0
-D,United States,Australia,2,1,home,11,3,0
-D,United States,Türkiye,0,0,draw,12,4,0
-D,Paraguay,Australia,1,0,home,11,3,0
-D,Paraguay,Türkiye,0,0,draw,12,3,0
-D,Australia,Türkiye,0,0,draw,11,3,0
-E,Germany,Curaçao,3,2,home,11,3,0
-E,Germany,Côte d'Ivoire,0,0,draw,11,3,0
-E,Curaçao,Côte d'Ivoire,0,0,draw,12,3,0
-F,Netherlands,Japan,1,1,home,10,3,0
-F,Netherlands,Sweden,3,1,home,11,3,0
-F,Netherlands,Tunisia,2,1,home,11,3,0
-F,Japan,Sweden,3,0,home,11,3,0
-F,Japan,Tunisia,2,1,home,11,3,0
-F,Sweden,Tunisia,1,1,home,11,3,0
-G,Belgium,Egypt,1,0,home,11,3,0
-G,Belgium,Iran,1,1,home,11,3,0
-G,Belgium,New Zealand,2,0,home,11,3,0
-G,Egypt,Iran,2,1,home,12,3,0
-G,Egypt,New Zealand,3,0,home,12,3,0
-G,Iran,New Zealand,2,0,home,12,4,0
-H,Spain,Cabo Verde,0,0,draw,11,3,0
-H,Spain,Saudi Arabia,1,0,home,11,3,0
-H,Spain,Uruguay,2,1,home,10,3,0
-H,Cabo Verde,Saudi Arabia,0,0,draw,11,3,0
-H,Cabo Verde,Uruguay,0,0,draw,11,3,0
-H,Saudi Arabia,Uruguay,0,1,away,11,3,0
-I,France,Senegal,3,0,home,10,3,0
-I,France,Iraq,3,0,home,11,3,0
-I,France,Norway,3,0,home,11,3,0
-I,Senegal,Iraq,0,0,draw,11,3,0
-I,Senegal,Norway,1,0,home,11,3,0
-I,Iraq,Norway,2,1,home,11,3,0
-J,Argentina,Algeria,2,0,home,11,3,0
-J,Argentina,Austria,2,0,home,10,3,0
-J,Argentina,Jordan,3,0,home,11,3,0
-J,Algeria,Austria,2,1,home,11,3,0
-J,Algeria,Jordan,3,0,home,11,3,0
-J,Austria,Jordan,3,1,home,11,3,0
-K,Portugal,Democratic Republic of Congo,0,0,draw,11,3,0
-K,Portugal,Uzbekistan,3,0,home,11,3,0
-K,Portugal,Colombia,2,1,home,10,3,0
-K,Democratic Republic of Congo,Uzbekistan,0,0,draw,12,4,0
-K,Democratic Republic of Congo,Colombia,0,0,draw,11,3,0
-K,Uzbekistan,Colombia,1,1,home,11,3,0
-L,England,Croatia,2,1,home,10,3,0
-L,England,Ghana,3,0,home,11,3,0
-L,England,Panama,3,0,home,11,3,0
-L,Croatia,Ghana,3,0,home,11,3,0
-L,Croatia,Panama,3,1,home,11,3,0
-L,Ghana,Panama,3,0,home,11,3,0
+group,home_team,away_team,home_goals,away_goals,winner,home_win_prob,draw_prob,away_win_prob,corners,yellow_cards,red_cards
+A,Mexico,South Africa,1,1,home,48.6,14.7,36.7,11,3,0
+A,Mexico,South Korea,2,1,draw,35.4,52.3,12.3,11,3,0
+A,Mexico,Czechia,1,1,home,59.3,26.3,14.5,11,3,0
+A,South Africa,South Korea,1,1,draw,32.0,44.2,23.8,12,3,0
+A,South Africa,Czechia,1,1,draw,35.4,53.5,11.1,11,3,0
+A,South Korea,Czechia,1,1,home,67.1,22.3,10.5,12,3,0
+B,Canada,Bosnia and Herzegovina,2,1,home,68.7,22.8,8.5,11,3,0
+B,Canada,Qatar,1,1,away,31.4,13.6,55.0,11,3,0
+B,Canada,Switzerland,1,2,away,25.5,30.6,44.0,11,3,0
+B,Bosnia and Herzegovina,Qatar,1,1,away,28.7,23.0,48.3,11,3,0
+B,Bosnia and Herzegovina,Switzerland,1,2,away,21.9,31.6,46.5,11,3,0
+B,Qatar,Switzerland,1,2,away,28.5,27.6,44.0,11,3,0
+C,Brazil,Morocco,2,2,home,52.3,25.6,22.0,10,3,0
+C,Brazil,Haiti,4,1,home,85.1,13.5,1.4,11,3,0
+C,Brazil,Scotland,2,1,home,86.4,9.4,4.2,11,3,0
+C,Morocco,Haiti,3,1,home,88.8,8.6,2.6,11,3,0
+C,Morocco,Scotland,2,1,home,77.4,10.3,12.4,11,3,0
+C,Haiti,Scotland,1,2,away,17.3,18.3,64.5,11,3,0
+D,United States,Paraguay,2,1,home,69.6,22.7,7.7,12,3,0
+D,United States,Australia,1,2,away,29.4,5.0,65.7,11,3,0
+D,United States,Türkiye,1,1,home,85.1,10.4,4.5,12,4,0
+D,Paraguay,Australia,1,2,away,25.1,22.1,52.9,11,3,0
+D,Paraguay,Türkiye,2,1,home,72.5,19.9,7.5,12,3,0
+D,Australia,Türkiye,2,1,home,84.8,11.4,3.8,11,3,0
+E,Germany,Curaçao,2,1,home,79.9,17.3,2.8,11,3,0
+E,Germany,Côte d'Ivoire,1,1,home,73.8,19.7,6.5,11,3,0
+E,Curaçao,Côte d'Ivoire,2,1,draw,38.6,44.7,16.7,12,3,0
+F,Netherlands,Japan,2,2,home,46.0,21.4,32.7,10,3,0
+F,Netherlands,Sweden,2,1,home,54.6,17.2,28.2,11,3,0
+F,Netherlands,Tunisia,2,1,home,76.1,12.2,11.6,11,3,0
+F,Japan,Sweden,2,1,home,50.8,10.2,39.0,11,3,0
+F,Japan,Tunisia,1,1,home,75.2,5.7,19.0,11,3,0
+F,Sweden,Tunisia,1,2,away,21.5,5.4,73.1,11,3,0
+G,Belgium,Egypt,2,1,home,67.0,11.8,21.2,11,3,0
+G,Belgium,Iran,3,1,home,71.9,16.0,12.0,11,3,0
+G,Belgium,New Zealand,4,1,home,90.1,8.7,1.3,11,3,0
+G,Egypt,Iran,1,1,home,67.5,14.6,18.0,12,3,0
+G,Egypt,New Zealand,2,1,home,84.2,11.0,4.8,12,3,0
+G,Iran,New Zealand,2,1,home,83.4,10.8,5.8,12,4,0
+H,Spain,Cabo Verde,2,1,home,90.5,7.3,2.2,11,3,0
+H,Spain,Saudi Arabia,3,1,home,91.0,4.6,4.4,11,3,0
+H,Spain,Uruguay,1,1,home,63.5,14.3,22.1,10,3,0
+H,Cabo Verde,Saudi Arabia,1,1,draw,28.8,58.8,12.4,11,3,0
+H,Cabo Verde,Uruguay,1,2,away,15.0,36.7,48.3,11,3,0
+H,Saudi Arabia,Uruguay,1,2,away,27.4,17.4,55.2,11,3,0
+I,France,Senegal,2,2,home,82.7,4.3,13.0,10,3,0
+I,France,Iraq,4,0,home,96.4,2.9,0.8,11,3,0
+I,France,Norway,2,1,home,66.5,14.0,19.5,11,3,0
+I,Senegal,Iraq,2,1,home,66.1,11.1,22.8,11,3,0
+I,Senegal,Norway,1,1,draw,30.4,36.8,32.7,11,3,0
+I,Iraq,Norway,1,1,draw,24.3,39.1,36.6,11,3,0
+J,Argentina,Algeria,1,1,home,63.9,9.5,26.6,11,3,0
+J,Argentina,Austria,2,1,home,68.0,10.3,21.7,10,3,0
+J,Argentina,Jordan,3,1,home,90.3,3.7,6.0,11,3,0
+J,Algeria,Austria,1,1,away,37.3,22.3,40.4,11,3,0
+J,Algeria,Jordan,2,1,home,78.7,5.2,16.1,11,3,0
+J,Austria,Jordan,2,1,home,66.5,4.1,29.3,11,3,0
+K,Portugal,Democratic Republic of Congo,4,1,home,82.3,13.2,4.5,11,3,0
+K,Portugal,Uzbekistan,3,1,home,88.5,9.8,1.8,11,3,0
+K,Portugal,Colombia,2,2,home,48.0,16.5,35.5,10,3,0
+K,Democratic Republic of Congo,Uzbekistan,1,1,draw,41.5,46.1,12.4,12,4,0
+K,Democratic Republic of Congo,Colombia,1,2,away,20.4,16.8,62.8,11,3,0
+K,Uzbekistan,Colombia,1,2,away,10.7,15.0,74.3,11,3,0
+L,England,Croatia,1,2,home,53.1,19.0,27.9,10,3,0
+L,England,Ghana,3,1,home,88.9,8.3,2.8,11,3,0
+L,England,Panama,2,1,home,81.8,12.7,5.5,11,3,0
+L,Croatia,Ghana,2,1,home,83.8,10.2,5.9,11,3,0
+L,Croatia,Panama,2,1,home,64.3,15.7,20.0,11,3,0
+L,Ghana,Panama,1,1,home,50.3,28.3,21.4,11,3,0
