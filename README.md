@@ -1,6 +1,6 @@
 # FIFA World Cup 2026 Match Predictor
 
-I built this project to predict the outcome of every match in the 2026 FIFA World Cup — all 104 of them, from the group stage all the way to the Final.
+I built this project to predict the outcome of every match in the 2026 FIFA World Cup, all 104 of them, from the group stage all the way to the Final.
 
 The model uses real historical match data and machine learning to predict scorelines, win probabilities, and simulate the entire tournament bracket.
 
@@ -106,21 +106,6 @@ fifa-predictor/
 
 ---
 
-## How to run it locally
-
-```bash
-git clone https://github.com/YOUR_USERNAME/fifa-predictor
-cd fifa-predictor
-python -m venv env
-env\Scripts\activate        # Windows
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Then open http://localhost:8501 in your browser.
-
----
-
 ## Data sources
 
 - Match results: [International Football Results 1872–2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017) — Kaggle
@@ -130,8 +115,4 @@ Then open http://localhost:8501 in your browser.
 
 ## A note on accuracy
 
-The outcome model hits around 54–58% accuracy on test data. That might sound low, but it's actually realistic — football is genuinely unpredictable. Even the best professional models in the world rarely exceed 60%. The value of this project isn't in perfect predictions, it's in building a real end-to-end data science pipeline from raw data to a live deployed app.
-
----
-
-_Built independently as a portfolio project, inspired by the DataCamp FIFA World Cup 2026 prediction competition._
+The outcome model hits around 54–58% accuracy on test data. That might sound low, but it's actually realistic, football is genuinely unpredictable. Even the best professional models in the world rarely exceed 60%. The value of this project isn't in perfect predictions, it's in building a real end-to-end data science pipeline from raw data to a live deployed app.
