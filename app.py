@@ -4,13 +4,13 @@ import numpy as np
 import joblib
 import plotly.graph_objects as go
 
-# ── Page config ───────────────────────────────────────────
+# Page config
 st.set_page_config(
     page_title="FIFA 2026 Predictor",
     layout="centered"
 )
 
-# ── Load data and models ──────────────────────────────────
+# Load data and models 
 @st.cache_data
 def load_data():
     team_stats      = pd.read_csv('data/team_stats.csv')
@@ -28,7 +28,7 @@ def load_models():
 team_stats, group_standings, knockout_preds = load_data()
 outcome_model, home_goals_model, away_goals_model = load_models()
 
-# ── Predict function ──────────────────────────────────────
+# Predict function
 def predict_match(home_team, away_team):
     home = team_stats[team_stats['team'] == home_team].iloc[0]
     away = team_stats[team_stats['team'] == away_team].iloc[0]
@@ -67,12 +67,12 @@ def predict_match(home_team, away_team):
         'away_win_p':  away_win_p,
     }
 
-# ── Header ────────────────────────────────────────────────
+# Header
 st.title("FIFA World Cup 2026 Predictor")
 st.caption("Built with Python · XGBoost · Historical match data")
 st.divider()
 
-# ── Predicted Winner ──────────────────────────────────────
+# Predicted Winner
 final = knockout_preds[knockout_preds['round'] == 'FINAL']
 if not final.empty:
     winner = final.iloc[0]['winner']
@@ -81,7 +81,7 @@ if not final.empty:
 
 st.divider()
 
-# ── Match Predictor ───────────────────────────────────────
+# Match Predictor
 st.subheader("Predict a Match")
 
 all_teams = sorted(team_stats['team'].tolist())
@@ -128,7 +128,7 @@ else:
 
 st.divider()
 
-# ── Group Standings ───────────────────────────────────────
+#  Group Standings
 st.subheader("Group Standings")
 
 selected_group = st.selectbox(
@@ -144,7 +144,7 @@ st.dataframe(table, use_container_width=True, hide_index=False)
 
 st.divider()
 
-# ── Knockout Results ──────────────────────────────────────
+# Knockout Results
 st.subheader("Knockout Results")
 
 rounds = ['Round of 32', 'Round of 16', 'Quarter-final',
