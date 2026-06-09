@@ -4,5 +4,7 @@ numpy
 scipy
 plotly
 scikit-learn
-requests
+xgboost
+joblib
 openpyxl
+requests
